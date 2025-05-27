@@ -267,6 +267,12 @@ h1, h2, h3, h4 {
     background: #fff;
 }
 
+.testimony-2-text{
+    text-align: center;
+    width: 750px;
+    margin: 20px auto;
+}
+
 .testimony-card {
     display: flex;
     justify-content: center;
@@ -558,6 +564,10 @@ footer {
     .section-2-text {
         font-size: 1.5rem;
     }
+    .section-description{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
     .section-2-text-1 {
         font-size: 1rem;
     }
@@ -570,6 +580,9 @@ footer {
         flex-direction: row;
         gap: 8px;
     }
+    .card-1 h4, p, .card--1 h2{
+    text-align: center;
+}
     .card-1, .card--1, .benefit-item, .testimony2 {
         width: 98%;
         min-width: 0;
@@ -597,6 +610,11 @@ footer {
     .testimony2 {
         height: auto;
     }
+    .testimony-2-text{
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+}
     .promo-1 {
         flex-direction: column;
         text-align: center;
@@ -609,18 +627,18 @@ footer {
         font-size: 0.8rem;
     }
     .promo-section img {
-        width: 95%;
-        margin: 15px auto;
-        padding: 0;
-    }
-    .fqas {
-        padding-left: 5%;
-        padding-right: 5%;
+        width: 100%;    
+
     }
     .Featured-Restaurants {
         padding: 18px 0;
         border-radius: 0;
         box-shadow: none;
+    }
+    .feature-2-text{
+        text-align: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .restaurant-parent {
         flex-direction: column;
@@ -637,7 +655,6 @@ footer {
         max-width: 100%;
         height: 100px;
     }
-
     
     footer {
         flex-direction: column;
@@ -647,8 +664,8 @@ footer {
     }
     .footer-top {
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        /* align-items: center;
+        text-align: center; */
         gap: 20px;
         padding-bottom: 20px;
         margin-bottom: 20px;
