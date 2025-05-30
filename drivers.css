@@ -228,7 +228,7 @@ body{
 
 .how-to-apply{
     width: 100%;
-    height: 110vh;
+    height: 120vh;
     padding-left: 2.5rem;
     padding-top: 1.5rem;
     padding-right: 2.5rem;
@@ -303,6 +303,19 @@ body{
     margin-bottom: 0.3rem;
     font-size: 1rem;
     letter-spacing: 0.5px;
+}
+
+.submit{
+    margin-top: 20px;
+    padding: 5px;
+    color: white;
+    border: none;
+    background-color: #f05a0e;
+}
+
+.submit:hover{
+    background-color: #ff725e;
+    color: white;
 }
 
 .apply-proccess-1 input[type="text"],
@@ -584,6 +597,10 @@ footer {
         width: 36px;
         height: 36px;
         font-size: 1rem;
+        align-self: center;
+    }
+    .contain h1{
+        text-align: center;
     }
     .alpha {
         gap: 10px;
@@ -592,9 +609,12 @@ footer {
     }
     .text-2 span {
         font-size: 1.1rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
     .text-2 p {
         width: 98vw;
+        text-align: center;
         font-size: 0.98rem;
     }
     .apply-proccess-1 .e {

@@ -655,6 +655,9 @@ footer {
         max-width: 100%;
         height: 100px;
     }
+    .logo{
+        align-items: flex-start;
+    }
     
     footer {
         flex-direction: column;
@@ -664,8 +667,8 @@ footer {
     }
     .footer-top {
         flex-direction: column;
-        /* align-items: center;
-        text-align: center; */
+        align-items: center;
+        text-align: center;
         gap: 20px;
         padding-bottom: 20px;
         margin-bottom: 20px;
