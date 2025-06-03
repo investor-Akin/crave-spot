@@ -2,12 +2,12 @@
 .into-section {
     width: 100%;
     min-height: 50vh;
-    background-color: #fff4e6;
+    background-color: #f05a0e;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 1rem;
-    border-radius: 18px;
+    /* border-radius: 18px; */
     margin-bottom: 2rem;
 }
 
@@ -24,7 +24,7 @@
 .intro-text h1 {
     margin-top: 0px;
     font-size: 2.3rem;
-    color: #ff725e;
+    color: white;
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 50px;
@@ -32,15 +32,15 @@
 }
 
 .intro-text p {
-    color: black;
+    color: white;
     font-size: 1.2rem;
     margin-bottom: 24px;
     line-height: 1.5;
 }
 
 .intro-text button {
-    background: #ff725e;
-    color: white;
+    background: white;
+    color: #f06427;
     border: none;
     border-radius: 8px;
     padding: 12px 32px;
@@ -513,7 +513,7 @@ footer {
     .into-section {
         min-height: 22vh;
         padding: 1rem 0.3rem;
-        border-radius: 10px;
+        /* border-radius: 10px; */
         margin-bottom: 1rem;
     }
     .intro-text {

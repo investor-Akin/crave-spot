@@ -339,6 +339,9 @@ footer {
         min-width: 0;
         height: auto;
     }
+    .plate1 img{
+        height: 25vh;
+    }
     .food-text p {
         font-size: 1rem;
     }
